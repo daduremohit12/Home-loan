@@ -12,8 +12,6 @@ import com.cjc.hl.enquiry.main.service.CibilService;
 @RestController
 public class CibilController {
 
-
-// for github revert i write here
 	@Autowired
 	private CibilService cibservice;
 	@PostMapping("/saveCibil")
